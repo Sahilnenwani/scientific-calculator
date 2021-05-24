@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 50px 0px;
+    background: radial-gradient(#1e8fa5,#08506b,black)no-repeat fixed;
+
+}
+.clear{
+background: #ff5722;
+color: #fff;
+}
+table{
+    background-color:black ;
+    padding: 7px 5px;
+    border: 6px solid black;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 27px #0d5569;
+    border-radius: 10px;
+    margin-top: 90px;
+}   
+.equal{
+    width: 88px;
+    background: #210;
+    color: white;
+
+
+}
+.equal:hover{
+    background: #000803;
+}
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientfic-Calculator</title>
+    <link rel="stylesheet" href="./calcdesign.css">
+</head>
+
+<body>
+    <form name="calculator">
+        <table align="center">
+            <tr>
+                <td colspan="4"><input type="text" name="result" id="result" placeholder=0></td>
+            </tr>
+            <tr>
+
+                <td><button type="button"  onclick="sin()">Sin</button></td>
+                <td><button type="button" value="cos" onclick="cos()">Cos</button></td>
+                <td><button type="button" value="tan" onclick="tan()">Tan</button></td>
+                <td><button type="button" class="clear" onclick="clearResult()" >C</button></td>
+            </tr>
+
+            <tr>
+                <td><button type="button" value="X^2" onclick="square()">X<sup>2</sup></button></td>
+                <td><button type="button" value="X^3" onclick="cube()">X<sup>3</sup></button></td>
+                <td><button type="button" value="sqrt2" onclick="squrt()">&radic;</button></td>
+                <td><button type="button" value="sqrt3" onclick="cubrt()">&#8731</button></td>
+            </tr>
+
+
+            <tr>
+                <td><button type="button"  onclick="number('1')">1</button></td>
+                <td><button type="button"  onclick="number('2')">2</button></td>
+                <td><button type="button"  onclick="number('3')">3</button></td>
+                <td><button type="button"  value="BACKSPC" onclick="backspace()"> < </button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><button type="button"  onclick="number('4')">4</button></td>
+                <td><button type="button"  onclick="number('5')">5</button></td>
+                <td><button type="button"  onclick="number('6')">6</button></td>
+                <td><button type="button"  onclick="number('-')">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button type="button"  onclick="number('7')">7</button></td>
+                <td><button type="button"  onclick="number('8')">8</button></td>
+                <td><button type="button"  onclick="number('9')">9</button></td>
+                <td><button type="button"  onclick="number('/')">/</button></td>
+            </tr>
+
+            <tr>
+                <td><button type="button"  onclick="number('.')">.</button></td>
+                <td><button type="button"  onclick="number('0')">0</button></td>
+                <td><button type="button"  onclick="number('*')">*</button></td>
+                <td><button type="button"  onclick="number('%')">%</button></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button type="button" onclick="getresult()" class="equal">=</button></td>
+                <td><button type="button"  onclick="number('+')">+</button></td>
+            </tr>
+
+
+        </table>
+    </form>
+<script src="./calc.js"></script>
+</body>
+
+</html>
